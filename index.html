@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SultanLulu | Akses Informasi Game Populer Hari Ini</title>
+  <meta name="google-site-verification" content="MyOuD4d2sFOd55hLcIgky6CyUtlizBlrGZlSfXZiLwg" />
+  <meta name="description" content="Temukan berbagai informasi game populer hari ini melalui SultanLulu dengan akses mudah, tampilan responsif, dan update yang terus diperbarui secara berkala." />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="author" content="sultanlulu" />
+  <link rel="canonical" href="https://simulatorlulu.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SultanLulu | Akses Informasi Game Populer Hari Ini" />
+  <meta property="og:description" content="Temukan berbagai informasi game populer hari ini melalui SultanLulu dengan akses mudah, tampilan responsif, dan update yang terus diperbarui secara berkala." />
+  <meta property="og:url" content="https://simulatorlulu.github.io/" />
+  <meta property="og:image" content="https://simulatorlulu.github.io/assets/sultan-alternatif.png" />
+  <meta property="og:site_name" content="SultanLulu | Akses Informasi Game Populer Hari Ini" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SultanLulu | Akses Informasi Game Populer Hari Ini" />
+  <meta name="twitter:description" content="Temukan berbagai informasi game populer hari ini melalui SultanLulu dengan akses mudah, tampilan responsif, dan update yang terus diperbarui secara berkala." />
+  <meta name="twitter:image" content="https://simulatorlulu.github.io/assets/sultan-alternatif.png" />
+
+  <link rel="icon" type="image/png" href="https://simulatorlulu.github.io/assets/favicon.png" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .snow-wrap {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .snowflake {
+      position: absolute;
+      top: -10px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 10px;
+      user-select: none;
+      animation-name: snowFall;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 10px rgba(255,255,255,0.25);
+    }
+
+    .snowflake:nth-child(1)  { left: 5%;  font-size: 10px; animation-duration: 9s;  animation-delay: 0s; }
+    .snowflake:nth-child(2)  { left: 12%; font-size: 14px; animation-duration: 12s; animation-delay: 1s; }
+    .snowflake:nth-child(3)  { left: 20%; font-size: 8px;  animation-duration: 10s; animation-delay: 2s; }
+    .snowflake:nth-child(4)  { left: 28%; font-size: 13px; animation-duration: 14s; animation-delay: 0.5s; }
+    .snowflake:nth-child(5)  { left: 36%; font-size: 9px;  animation-duration: 11s; animation-delay: 1.5s; }
+    .snowflake:nth-child(6)  { left: 44%; font-size: 12px; animation-duration: 13s; animation-delay: 2.5s; }
+    .snowflake:nth-child(7)  { left: 52%; font-size: 10px; animation-duration: 9.5s; animation-delay: 0.8s; }
+    .snowflake:nth-child(8)  { left: 60%; font-size: 15px; animation-duration: 12.5s; animation-delay: 1.8s; }
+    .snowflake:nth-child(9)  { left: 68%; font-size: 9px;  animation-duration: 10.5s; animation-delay: 2.2s; }
+    .snowflake:nth-child(10) { left: 76%; font-size: 13px; animation-duration: 13.5s; animation-delay: 0.3s; }
+    .snowflake:nth-child(11) { left: 84%; font-size: 11px; animation-duration: 11.5s; animation-delay: 1.2s; }
+    .snowflake:nth-child(12) { left: 92%; font-size: 14px; animation-duration: 12s; animation-delay: 2.8s; }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-outside {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+      transform: translateY(-12px);
+    }
+
+    .top-logo {
+      max-width: 240px;
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.4));
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 22px;
+      padding: 18px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    .main-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+
+    .cta-note {
+      margin-top: 14px;
+      margin-bottom: 2px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #dbeafe;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+      margin-top: 16px;
+      padding: 15px 20px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #38bdf8, #22c55e);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+      animation: pulseButton 1.8s ease-in-out infinite;
+      box-shadow: 0 0 0 rgba(56, 189, 248, 0.35);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      opacity: 0.96;
+    }
+
+    .copyright {
+      margin-top: 14px;
+      font-size: 13px;
+      color: #cbd5e1;
+    }
+
+    @keyframes pulseButton {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.35);
+      }
+      50% {
+        transform: scale(1.03);
+        box-shadow: 0 0 0 12px rgba(56, 189, 248, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(56, 189, 248, 0);
+      }
+    }
+
+    @keyframes snowFall {
+      0% {
+        transform: translateY(-10px) translateX(0);
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      50% {
+        transform: translateY(50vh) translateX(12px);
+      }
+      100% {
+        transform: translateY(110vh) translateX(-10px);
+        opacity: 0.2;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 14px;
+        border-radius: 18px;
+      }
+
+      .logo-outside {
+        margin-bottom: 8px;
+        transform: translateY(-8px);
+      }
+
+      .top-logo {
+        max-width: 190px;
+      }
+
+      .cta-note {
+        font-size: 13px;
+      }
+
+      .btn {
+        font-size: 15px;
+        padding: 14px 18px;
+      }
+
+      .copyright {
+        font-size: 12px;
+      }
+
+      .snowflake:nth-child(9),
+      .snowflake:nth-child(10),
+      .snowflake:nth-child(11),
+      .snowflake:nth-child(12) {
+        display: none;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SultanLulu | Akses Informasi Game Populer Hari Ini",
+    "url": "https://simulatorlulu.github.io/",
+    "description": "Temukan berbagai informasi game populer hari ini melalui SultanLulu dengan akses mudah, tampilan responsif, dan update yang terus diperbarui secara berkala.",
+    "inLanguage": "id-ID"
+  }
+  </script>
+</head>
+<body>
+  <div class="snow-wrap" aria-hidden="true">
+    <span class="snowflake">❄</span>
+    <span class="snowflake">❅</span>
+    <span class="snowflake">❄</span>
+    <span class="snowflake">❅</span>
+    <span class="snowflake">❄</span>
+    <span class="snowflake">❅</span>
+    <span class="snowflake">❄</span>
+    <span class="snowflake">❅</span>
+    <span class="snowflake">❄</span>
+    <span class="snowflake">❅</span>
+    <span class="snowflake">❄</span>
+    <span class="snowflake">❅</span>
+  </div>
+
+  <main class="container">
+    <div class="logo-outside">
+      <img src="https://simulatorlulu.github.io/assets/lulu.gif" alt="Logo SultanLulu" class="top-logo" />
+    </div>
+
+    <section class="card">
+      <img src="https://simulatorlulu.github.io/assets/sultan-alternatif.png" alt="Foto utama landing page" class="main-image" />
+      <p class="cta-note">Klik tombol di bawah untuk masuk ke website dengan lebih cepat.</p>
+      <a href="https://goolink.id/sultan-all" class="btn" target="_blank" rel="nofollow noopener">Masuk Sekarang</a>
+    </section>
+
+    <div class="copyright">© 2026 SultanLulu. All Rights Reserved.</div>
+  </main>
+</body>
+</html>
